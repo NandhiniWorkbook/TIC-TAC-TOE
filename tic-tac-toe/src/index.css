@@ -1,0 +1,121 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: black;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+main {
+  background-color: black;
+  font-size: 16px;
+  color: black;
+}
+
+h1 {
+  font-size: 2rem;
+  font-weight: bolder;
+  text-transform: uppercase;
+  padding: 2rem 1rem;
+  background-color: yellow;
+  margin: 0;
+}
+
+.player {
+  display: inline-block;
+  color: white;
+  font-size: 1.25rem;
+  margin: 3rem 0rem 2rem 0rem;
+  padding: 1rem 2rem;
+}
+
+.edit-btn {
+  background-color: black;
+  color: rgb(243, 179, 95);
+  border: 1px solid rgb(243, 179, 95);
+  font-size: 1rem;
+  margin: 0rem 1.5rem;
+  padding: 0.3rem 0.75rem;
+}
+
+.player-name {
+  text-transform: uppercase;
+  margin-right: 1rem;
+}
+
+.active-player {
+  border: 2px solid rgba(226, 130, 51, 0.747);
+}
+
+.playername-inputbox {
+  height: 1.5rem;
+  border: none;
+  font-size: 1rem;
+}
+
+.box-container {
+
+}
+
+.input-box {
+  background-color: white;
+  font-size: 4rem;
+  height: 6rem;
+  width: 6rem;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin: 1.5rem;
+  border: 0;
+  padding: 0;
+  vertical-align: top;
+}
+
+.reset-btn {
+  height: 2.5rem;
+  width: 8rem;
+  font-size: 1rem;
+  margin-top: 3rem;
+  border-radius: 4px;
+  background-color: black;
+  color: rgba(247, 243, 243, 0.959);
+  border: 1px solid rgb(184, 178, 178);
+  box-shadow: 0 4px 8px 0 rgba(253, 253, 253, 0.2), 0 6px 9px 0 rgba(253, 253, 253, 0.19);
+}
+
+.modal {
+  width: 20rem;
+  height: 10rem;
+  border: none;
+  border-radius: 0.25rem;
+  font-size: 1rem;
+  position: relative;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+  'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.modal::backdrop {
+  background-color: rgba(0,0,0,0.75);
+}
+
+.modal form {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.close-modal-btn {
+  height: 2rem;
+  width: 6rem;
+  margin: 2rem;
+}
